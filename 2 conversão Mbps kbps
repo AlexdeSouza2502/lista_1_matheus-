@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+	
+	float mb,convertido;
+	printf("\nConversao de Mbps para Kbps");
+	printf("\nDigite o valor em Mbps a ser convertido: ");
+	scanf("%f",&mb);
+	convertido = mb*1000 ;
+	printf("\nNa conversao e equivalente a: %9.f Kbps",convertido);
+	
+	return 0;
+}
