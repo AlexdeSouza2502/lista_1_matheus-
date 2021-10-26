@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+
+main ()
+{
+	
+	
+	int aleatorio, numero ,cont=0;
+	
+	srand(time (NULL));
+	aleatorio = rand()%10;
+	
+	do 
+	{
+		printf(" Numero da sorte: ");
+		scanf("%d",&numero);
+		cont++;
+	} 
+	while(numero!=aleatorio);
+	
+	printf("\n Parabens! Voce acertou em %d tentativas!",cont);
+	printf("\n");
+	
+	return 0;	
+}
