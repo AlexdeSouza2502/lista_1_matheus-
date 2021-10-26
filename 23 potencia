@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+	//pot (potencia) cont (contador)
+  int x,        
+      n,        
+      pot, 
+      cont; 
+  
+  printf("\nDigite um numero inteiro para ser elevado: ");
+  scanf("%d", &x);
+  printf("Digite um numero um inteiro nao-negativo: ");
+  scanf("%d", &n);
+   
+  potencia = 1;
+  cont = 0;
+ 
+  while (cont != n) {
+    pot = pot * x;
+    cont = cont + 1;
+  }
+  
+  printf("\nO valor de %d elevado a %d: %d\n", x, n, pot);
+  return 0;
+}
