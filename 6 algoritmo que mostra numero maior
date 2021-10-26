@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    int numA, numB;
+    printf("Digite o primeiro valor: ");
+    scanf("%d", &numA);
+    printf("Digite o segundo valor: ");
+    scanf("%d", &numB);
+    if(numA>numB){
+        printf("%d o maior", numA);
+    }else{
+        printf("%d o maior", numB);
+    }
+   return 0;
+}
