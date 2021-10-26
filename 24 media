@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main()
+{
+	
+	int numer1,numer2;
+	float total, media_total;
+	printf("Digite o primeiro numero: ");
+	scanf("%i",&numer1);
+	printf("Digite o segundo numero: ");
+	scanf("%i",&numer2);
+	total=numer1+numer2;
+	media_total=total/2;
+	printf("A soma = %.2f \n",total);
+    printf("A média = %.1f\n",media_total); 
+}
