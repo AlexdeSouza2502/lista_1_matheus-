@@ -1,0 +1,19 @@
+1.	Elaborar um programa em C que apresente o valor da conversão em dólar (US$) de um valor lido em real, o programa deve solicitar a cotação do dólar e também a quantidade de reais disponível com o usuário.
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+int main (){
+	setlocale(LC_ALL,"Portuguese");
+	float dolar,real,dinheiro;
+	printf("\nConversão para dolar");
+	printf("\nDigite a Cotação do dolar hoje: ");
+	scanf("%f",&dolar);
+	
+	printf("\nDigite o valor de reais, que tem disponível: ");
+	scanf("%f",&real);
+	dinheiro = real/dolar;
+	
+	printf("\nNa conversão você, tem %3.f dolares disponíveis",dinheiro);
+	
+	return 0;
+}
